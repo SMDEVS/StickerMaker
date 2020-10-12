@@ -1,0 +1,82 @@
+package com.example.superherosquad;
+
+import android.content.Context;
+import android.graphics.Color;
+import android.util.Log;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+import android.widget.Button;
+import android.widget.RelativeLayout;
+import android.widget.TextView;
+
+import androidx.annotation.NonNull;
+import androidx.recyclerview.widget.RecyclerView;
+
+import java.util.ArrayList;
+
+import de.hdodenhof.circleimageview.CircleImageView;
+import okhttp3.Challenge;
+
+public class MatchApdater extends RecyclerView.Adapter<MatchApdater.MyHeroHolder> {
+    ArrayList<challenge> mMyHeroes=new ArrayList<>();
+    Context mContext;
+    recyclerViewClick mRecyclerViewClick;
+
+
+    public MatchApdater(Context context, ArrayList<challenge> mMyHeroes, recyclerViewClick RecyclerViewClick) {
+        mRecyclerViewClick=RecyclerViewClick;
+        this.mContext=context;
+        this.mMyHeroes=mMyHeroes;
+
+    }
+
+
+    @NonNull
+    @Override
+    public MatchApdater.MyHeroHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
+        View view = LayoutInflater.from(parent.getContext())
+                .inflate(R.layout.matchcard, null);
+        return new MyHeroHolder(view);
+    }
+
+    @Override
+    public void onBindViewHolder(@NonNull MatchApdater.MyHeroHolder holder, int position) {
+
+        if(mMyHeroes.get(position).getWinner().equals(
+                mMyHeroes.get(position).getHomeId()))
+        {
+            holder.winner.setTextColor(mContext.getResources().getColor(android.R.color.holo_green_dark));
+            holder.Loser.setTextColor(mContext.getResources().getColor(android.R.color.holo_red_dark));
+            holder.Loser2.setTextColor(mContext.getResources().getColor(android.R.color.holo_red_dark));
+        }
+        else if(mMyHeroes.get(position).getWinner().equals(
+                mMyHeroes.get(position).getGuestId()))
+        {
+            holder.Loser.setTextColor(mContext.getResources().getColor(android.R.color.holo_green_dark));
+            holder.winner.setTextColor(mContext.getResources().getColor(android.R.color.holo_red_dark));
+
+        }
+        else if(mMyHeroes.get(position).getWinner().equals("Tie")) {
+            holder.Loser.setTextColor(mContext.getResources().getColor(android.R.color.holo_orange_light));
+            holder.winner.setTextColor(mContext.getResources().getColor(android.R.color.holo_orange_light));
+        }
+        else {
+            holder.Loser.setTextColor(mContext.getResources().getColor(R.color.Nc));
+            holder.winner.setTextColor(mContext.getResources().getColor(R.color.Nc));
+        }
+        int is=Integer.parseInt(mMyHeroes.get(position).getPlayers());
+        if(is==2)
+        {
+            holder.r2.setVisibility(View.GONE);
+            holder.r3.setVisibility(View.GONE);
+        }
+        else if(is==3)
+        {
+            holder.r3.setVisibility(View.GONE);
+            holder.at2.setText((String) mMyHeroes.get(position).getAcceptedtime().get("2"));
+            Glider.load(holder.p3,mMyHeroes.get(position).getGuestpic().get("2").toString(),Glider.getProg(holder.p3.getContext()));
+            holder.Loser2.setText(mMyHeroes.get(position).getGuestName().get("2").toString());
+        }
+        else {
+            holder.at2.setText((String) mMyHeroe

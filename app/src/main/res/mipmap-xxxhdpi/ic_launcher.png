@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config>
+        <device id="pixel_3a_xl" />
+        <device id="pixel_xl" />
+        <device id="pixel_3_xl" />
+        <device id="pixel" />
+      </config>
+    </shared>
+  </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="debug" />
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="894b58ca-33aa-46d5-ba5d-b76df08d3a5b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/superherosquad/RoomDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/superherosquad/RoomDB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/superherosquad/RoomRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/card4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/modedialog.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/superherosquad/Battle.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/superherosquad/Battle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/superherosquad/HomeFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/superherosquad/HomeFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/superherosquad/ListApdater.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/superherosquad/ListApdater.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/superherosquad/ListViewModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/superherosquad/ListViewModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/superherosquad/Main2Activity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/superherosquad/Main2Activity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/superherosquad/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/superherosquad/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/superherosquad/MarketFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/superherosquad/MarketFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/superherosquad/MatchApdater.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/superherosquad/MatchApdater.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/superherosquad/MatchFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/superherosquad/MatchFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/superherosquad/ModePref.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/superherosquad/ModePref.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/superherosquad/NotificationApdater.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/superherosquad/NotificationApdater.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/superherosquad/NotifyFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/superherosquad/NotifyFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/superherosquad/Settings.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/superherosquad/challenge.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/superherosquad/challenge.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/superherosquad/dispSuperHero.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/superherosquad/dispSuperHero.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/superherosquad/game.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/superherosquad/game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/superherosquad/online.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/superherosquad/online.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/superherosquad/recyclerViewClick.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/superherosquad/recyclerViewClick.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/superherosquad/sharedPref.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/superherosquad/sharedPref.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/superherosquad/storeFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/superherosquad/storeFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/superherosquad/user.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/superherosquad/user.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_dash_board.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_dash_board.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_store.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_store.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/matchcard.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/matchcard.xml" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="D1AGAD1762914799" />
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="valueResourceFile" />
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="resourceFile" />
+        <option value="layoutResourceFile" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1dP0MyYIOzdzJWcO6BjXxaJohQg" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="DeviceAndSnapshotComboBoxAction.selectedDevice" value="D1AGAD1762914799" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2020-08-14T17:37:15.209Z" />
+    <property name="SelectDeploymentTargetsDialog.selectedDevices" value="D1AGAD1762914799&#10;CTLID18120800763" />
+    <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/res/layout-land" />
+    <property name="project.structure.last.edited" value="SDK Location" />
+    <property name="project.structure.proportion" value="0.17" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Asus\StudioProjects\SuperHeroSquad\app\src\main\res\layout-land" />
+      <recent name="C:\Users\Asus\StudioProjects\SuperHeroSquad\app\src\main\java\com\example\superherosquad" />
+      <recent name="C:\Users\Asus\StudioProjects\SuperHeroSquad\app\src\main\res\raw" />
+      <recent name="C:\Users\Asus\StudioProjects\SuperHeroSquad\app\src\main\res" />
+      <recent name="C:\Users\Asus\StudioProjects\SuperHeroSquad\app\src\main\res\drawable" />
+    </key>
+    <key name="android.template.packageName">
+      <recent name="com.example.superherosquad" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.superherosquad" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Asus\StudioProjects\SuperHeroSquad\app\src\main\res\drawable" />
+      <recent name="C:\Users\Asus\StudioProjects\SuperHeroSquad\app\src\main\res\drawable-v24" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_

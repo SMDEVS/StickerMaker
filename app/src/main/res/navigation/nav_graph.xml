@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/stickersFragment">
+
+    <fragment
+        android:id="@+id/stickersFragment"
+        android:name="com.example.stickermaker.StickersFragment"
+        android:label="fragment_stickers"
+        tools:layout="@layout/fragment_stickers" >
+        <action
+            android:id="@+id/action_stickersFragment_to_cropFragment"
+            app:destination="@id/cropFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/cropFragment"
+        android:name="com.example.stickermaker.CropFragment"
+        android:label="fragment_crop"
+        tools:layout="@layout/fragment_crop" >
+        <action
+            android:id="@+id/action_cropFragment_to_editorFragment"
+            app:destination="@id/editorFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/editorFragment"
+        android:name="com.example.stickermaker.EditorFragment"
+        android:label="fragment_editor"
+        tools:layout="@layout/fragment_editor" >
+        <action
+            android:id="@+id/action_editorFragment_to_stickersFragment"
+            app:destination="@id/stickersFragment" />
+    </fragment>
+</navigation>
