@@ -2,7 +2,7 @@
 App for making whatsapp stickers
 
 implements
-.auto-cropping
+.auto-cropping 
 .geometrical shape croping
 .addition of text to stickers
 .image filters
