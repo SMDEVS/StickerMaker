@@ -35,8 +35,8 @@ Each commit message consists of a header, a body and a footer. The header has a 
 Any line of the commit message cannot be longer 100 characters.
 Example Commit Message
 ```  
-feat(Crop): implement SquareCrop<br/>
+feat(Crop): implement SquareCrop
 
-squarecropping feature is added in Cropping_Fragment.kt<br/>
+squarecropping feature is added (Cropping_Fragment.kt)
 ```
 !! follow the conventions followed here.
