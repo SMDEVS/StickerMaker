@@ -39,7 +39,9 @@ dependencies {
     //nav ui
     implementation 'androidx.navigation:navigation-fragment:2.3.0'
     implementation 'androidx.navigation:navigation-ui:2.3.0'
-    //mvvm
+    //lifecycle components(view model +live data)
     implementation 'androidx.lifecycle:lifecycle-viewmodel:2.2.0'
     implementation 'androidx.lifecycle:lifecycle-livedata:2.2.0'
+    //room components
+    implementation "androidx.room:room-runtime:2.2.5"
 }
