@@ -14,7 +14,7 @@ contains 3 fragments:<br />
 * Editor-Fragment...(For adding Filters and texts to croppped image sent from Cropping_Fragment and save it in RooomDB)
 
 # Contact
-Email-smdevsmail@gmail.com
+Email: smdevsmail@gmail.com
 
 # Contributing guidelines
 https://github.com/Muhesh7/StickerMaker/blob/master/CONTRIBUTING.md </b>
