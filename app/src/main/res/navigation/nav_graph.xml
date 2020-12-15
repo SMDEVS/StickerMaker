@@ -22,6 +22,9 @@
         <action
             android:id="@+id/action_cropFragment_to_editorFragment"
             app:destination="@id/editorFragment" />
+        <argument
+            android:name="myArgs"
+            app:argType="string" />
     </fragment>
     <fragment
         android:id="@+id/editorFragment"
